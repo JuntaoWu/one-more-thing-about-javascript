@@ -3,8 +3,8 @@
         var a = 2;
         const HAHA = 1;
         a = 3;
-        b = 4; //const error.
+        HAHA = 4; //const error.
     }
     console.log(a);
-    console.log(b); //Reference Error.
+    console.log(HAHA); //Reference Error.
 })();
